@@ -1,0 +1,63 @@
+.bgImage {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('./images/waterfall.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+h1 {
+    font-size: 7rem;
+    font-weight: lighter;
+    color: white;
+}
+
+.subHome {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.learnMore {
+    background-color: transparent;
+    color: white;
+    border: white solid 2px;
+    border-radius: 5%;
+    width: 15rem;
+    height: 3rem;
+    margin-top: 15rem;
+}
+
+.learnMore:hover {
+    background-color: white;
+    color: black;
+}
+
+.mePic {
+    transform: rotate(90deg);
+    height: 35%;
+    margin-right: 25rem;
+    margin-left: 0;
+    position: relative;
+    right: 4.3rem;
+    top: 3.7rem;
+    border-radius: 100%;
+}
+
+
+.about {
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.myName {
+    color: #00dae6;
+}
+
+.aboutMe {
+    text-align: left;
+}
+
+h4 {
+    color: #00dae6;
+}
