@@ -12,27 +12,41 @@
     />
     <link rel="stylesheet" href="styles.css" />
     <title>Spencer Lyons Portfolio</title>
+    <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
   </head>
   <body>
     <header class="bgImage">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link " href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
       <div class="container h-100">
         <div class="row h-100 align-items-center">
           <div class="col-12 text-center">
             <h1>Hi! I'm <span class="myName">Spencer Lyons</span></h1>
-            <p class="subHome">Aspiring software developer</p>
-            <button class="learnMore">Learn More</button>
+            <p class="subHome">An aspiring software developer</p>
+            <a href="#about"><button class="learnMore">Learn More</button></a>
           </div>
         </div>
       </div>
     </header>
     <main>
-      <div class="container">
+      <div id="about" class="container">
         <div class="row">
-          <div class="col-lg-4 about">
+          <div class="col-lg-4 aboutSection">
             <img class="mePic " src="images/me2.JPG" />
           </div>
-          <div class="col-lg-8 about">
-            <h2>Here's my story</h2>
+          <div class="col-lg-8 aboutSection">
+            <h2>A Little About Me</h2>
             <article class="aboutMe">
               <h4>Back Story</h4>
               <p>
@@ -47,20 +61,133 @@
                 continue to learn, my goal is to land a full time web developer
                 job by end of 2020.
               </p>
-              <br>
+              <br />
               <h4>My Passions</h4>
               <p>
-                I absolutely love sports. I grew up playing and watching football, basketball, baseball, bowling and golf. To this day, I still enjoying watching them all but unforunately don't have the time to actually play most of them. I have recently gotten back into bowling though and joined a league this past fall. It's a sport that once you can constitent enough that it becomes very addicting to play. I have a few ideas how technology could help the sport and would love to be able to code those out someday.
+                I absolutely love sports. I grew up playing and watching
+                football, basketball, baseball, bowling and golf. To this day, I
+                still enjoying watching them all but unforunately don't have the
+                time to actually play most of them. I have recently gotten back
+                into bowling though and joined a league this past fall. It's a
+                sport that once you can constitent enough that it becomes very
+                addicting to play. I have a few ideas how technology could help
+                the sport and would love to be able to code those out someday.
               </p>
             </article>
           </div>
         </div>
       </div>
-      <div class="container mySkills">
-        <div class="row">
-          <div class="col-lg-12"></div>
+    </main>
+    <div id="skills" class="container mySkills">
+      <h2 class="skillsTitle">My Skills</h2>
+      <div class="row icons">
+        <div class="col-lg-4">
+          <img class="icon" src="images/jigsaw.png" />
+          <h4>Problem Solving</h4>
+          <p class="skillPara">
+            I understand to solve a complex problem requires breaking the
+            problem down, working through possible solutions and determining
+            what is the best path forward.
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <img class="icon" src="images/report.png" />
+          <h4>Business Accumen</h4>
+          <p class="skillPara">
+            My experience has given me the opportunituy to work with clients,
+            understand their needs and be able to effectively comminicate back
+            to the team.
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <img class="icon" src="images/code.png" />
+          <h4>Coding</h4>
+          <p class="skillPara">
+            I have been teaching myself to code for the last six months and have
+            developed a strong passion for it. Major problems can be solved with
+            a few lines of code. Looking to shapren and improve my skills.
+          </p>
         </div>
       </div>
-    </main>
+      <h2 class="tableHeading">Current Progress:</h2>
+      <div class="row">
+        <div class="col-lg-6">
+          <table class="tableSkills" cellspacing="10">
+            <tr>
+              <td class="languageHeadings"><h2>HTML</h2></td>
+              <td>
+                <img class="star" src="images/star.png" /><img
+                  class="star"
+                  src="images/star.png"
+                /><img class="star" src="images/star.png" /><img
+                  class="star"
+                  src="images/star.png"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td class="languageHeadings"><h2>Javascript</h2></td>
+              <td>
+                <img class="star" src="images/star.png" /><img
+                  class="star"
+                  src="images/star.png"
+                /><img class="star" src="images/star.png" />
+              </td>
+            </tr>
+            <tr>
+              <td class="languageHeadings"><h2>Angular</h2></td>
+              <td>
+                <img class="star" src="images/star.png" />
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="col-lg-6">
+            <table class="tableSkills" cellspacing="10">
+                <tr>
+                    <td class="languageHeadings"><h2>CSS</h2></td>
+                    <td>
+                      <img class="star" src="images/star.png" /><img
+                        class="star"
+                        src="images/star.png"
+                      /><img class="star" src="images/star.png" /><img
+                        class="star"
+                        src="images/star.png"
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="languageHeadings"><h2>Node.js</h2></td>
+                    <td>
+                      <img class="star" src="images/star.png" /><img
+                        class="star"
+                        src="images/star.png"
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="languageHeadings"><h2>React</h2></td>
+                    <td>
+                      <img class="star" src="images/star.png" />
+                    </td>
+                  </tr>
+                </table>
+              </div>          
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="container">
+        <div class="row">
+            <div class="col-lg-12 contactMe">
+                <h2>Contact Me</h2>
+                <p class="emailPhone"><i class="fab fa-linkedin-in"></i><a class="linkPro" href="https://www.linkedin.com/in/spencer-lyons-21b2981b/"> Spencer Lyons</a></p>
+                <p class="emailPhone"><i class="fas fa-envelope"></i>  sjl8r8@gmail.com</p>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <p>Spencer Lyons &copy</p>
+        <p>Established In: 1986</p>
+    </footer>
   </body>
 </html>

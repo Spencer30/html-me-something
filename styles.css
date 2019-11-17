@@ -18,6 +18,20 @@ h1 {
     font-size: 2.5rem;
 }
 
+.nav {
+    margin-right: 5rem;
+    
+}
+.nav-link{
+    color:white;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.nav-link:hover{
+    color: #00dae6;
+}
+
 .learnMore {
     background-color: transparent;
     color: white;
@@ -30,12 +44,12 @@ h1 {
 
 .learnMore:hover {
     background-color: white;
-    color: black;
+    color: #00dae6;
 }
 
 .mePic {
     transform: rotate(90deg);
-    height: 35%;
+    height: 48%;
     margin-right: 25rem;
     margin-left: 0;
     position: relative;
@@ -44,10 +58,13 @@ h1 {
     border-radius: 100%;
 }
 
-
-.about {
+main {
+    background-color: lightgray;
+}
+.aboutSection {
     margin-top: 10rem;
     text-align: center;
+    height: 700px;
 }
 
 .myName {
@@ -60,4 +77,76 @@ h1 {
 
 h4 {
     color: #00dae6;
+}
+
+.mySkills {
+    /* background-color: lightgray; */
+    height: 1000px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.skillPara {
+ margin-left: 15%;
+ margin-right: 15%;
+}
+
+.icons {
+    margin-top: 5rem;
+}
+
+.icon {
+    margin-bottom: 2rem;
+}
+
+.skillsTitle {
+    padding-top: 2rem;
+}
+
+.star {
+    width: 15%;
+    
+}
+
+.languageHeadings{
+    width: 55%;
+    height: 6rem;
+    color: #434544;
+    text-align: left;
+}
+
+.tableSkills{
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tableHeading {
+    margin-top: 5rem;
+}
+
+#contact {
+    background-image: url("./images/night2.jpg");
+    max-width: 100%;
+    height: 700px;
+    text-align: center;
+}
+
+.contactMe {
+    margin-top: 17rem;
+    color:white;
+}
+
+#footer {
+    text-align: left;
+    margin-left: 25rem;
+}
+
+.emailPhone {
+    font-size: 1.4rem;
+    padding-top: 1rem;
+}
+
+.linkPro {
+    color: white;
 }
