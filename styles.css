@@ -1,3 +1,7 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .bgImage {
     height: 100vh;
     min-height: 500px;
@@ -5,7 +9,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-  }
+}
 
 h1 {
     font-size: 7rem;
@@ -20,15 +24,16 @@ h1 {
 
 .nav {
     margin-right: 5rem;
-    
+
 }
-.nav-link{
-    color:white;
+
+.nav-link {
+    color: white;
     margin-right: 1rem;
     margin-top: 1rem;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: #00dae6;
 }
 
@@ -61,10 +66,11 @@ h1 {
 main {
     background-color: lightgray;
 }
+
 .aboutSection {
     margin-top: 10rem;
     text-align: center;
-    height: 700px;
+    height: 43.75rem;
 }
 
 .myName {
@@ -81,14 +87,14 @@ h4 {
 
 .mySkills {
     /* background-color: lightgray; */
-    height: 1000px;
+    height: 62.5rem;
     max-width: 100%;
     text-align: center;
 }
 
 .skillPara {
- margin-left: 15%;
- margin-right: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .icons {
@@ -105,17 +111,17 @@ h4 {
 
 .star {
     width: 15%;
-    
+
 }
 
-.languageHeadings{
+.languageHeadings {
     width: 55%;
     height: 6rem;
     color: #434544;
     text-align: left;
 }
 
-.tableSkills{
+.tableSkills {
     margin-top: 2rem;
     margin-left: auto;
     margin-right: auto;
@@ -128,18 +134,23 @@ h4 {
 #contact {
     background-image: url("./images/night2.jpg");
     max-width: 100%;
-    height: 700px;
+    height: 43.75rem;
     text-align: center;
 }
 
 .contactMe {
     margin-top: 17rem;
-    color:white;
+    color: white;
+}
+
+.email {
+    color: white;
 }
 
 #footer {
     text-align: left;
-    margin-left: 25rem;
+    margin-left: 5rem;
+    max-width: 100%;
 }
 
 .emailPhone {
@@ -149,4 +160,87 @@ h4 {
 
 .linkPro {
     color: white;
+}
+
+.imagetiles {
+    padding: 0;
+}
+
+.projects {
+    max-width: 55%;
+}
+
+.img-responsive {
+    object-fit: cover;
+}
+
+.card-group {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    
+}
+
+.card-img-top {
+    height: 15.625rem;
+}
+
+.card-img {
+    height: 15.625rem;
+    border-radius: 0;
+}
+
+#projects {
+    background-color: lightgray;
+    text-align: center;
+}
+
+.project-title {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+/* .final-row {
+    background-color: lightgray;
+    padding-bottom: 5.5rem;
+} */
+
+.proj {
+    padding-bottom: 4.5rem;
+}
+
+.card {
+    border-radius: 0;
+
+}
+
+.card-img {
+    padding-bottom: 0;
+}
+
+.hover-text {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 25%;
+    color: pink;
+}
+
+.card-img-overlay {
+    opacity: 0;
+
+}
+
+.card-img-overlay:hover {
+    color: white;
+    background-color: black;
+    opacity: 80%;
+}
+
+.card-title {
+    margin-top: 25%;
+}
+
+.card-title {
+    color: #00dae6;
 }
