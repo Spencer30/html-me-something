@@ -1,6 +1,17 @@
-body {
+/* body {
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+} */
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
+
 
 .bgImage {
     height: 100vh;
@@ -17,9 +28,14 @@ h1 {
     color: white;
 }
 
+h4 {
+    font-weight: bolder;
+}
+
 .subHome {
     color: white;
     font-size: 2.5rem;
+    font-weight: lighter;
 }
 
 .nav {
@@ -243,4 +259,94 @@ h4 {
 
 .card-title {
     color: #00dae6;
+}
+
+@media only screen 
+  and (min-device-width: 319px) 
+  and (max-device-width: 480px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+    
+    .subHome {
+        font-size: 2rem;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .mePic {
+        height: 65%;
+        margin-left: 25%;
+        /* top: 1rem; */
+    }
+
+    .aboutSection {
+        margin-top: 0;
+        padding-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .aboutArticle {
+        top: 5rem;
+        height: 900px;
+    }
+
+    .me {
+        margin-top: 1.5rem;
+        height: 350px;
+    }
+
+    .meTitle {
+        margin-bottom: 2.5rem;
+    }
+    
+    .skills {
+        height: 1500px;
+    }
+    
+    #projects {
+        margin-top: 1200px;
+    }
+    
+    .icon {
+        margin-top: 2rem;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .mePic {
+        margin-top: 2.5rem;
+        height: 55%;
+        margin-left: 25%;
+        /* top: 1rem; */
+    }
+
+    .aboutSection {
+        margin-top: 0;
+        padding-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .meTitle {
+        margin-bottom: 2.5rem;
+        margin-top: -3.5rem;
+    }
+
+    #projects {
+        margin-top: 900px;
+    }
+
+    .icon {
+        margin-top: 2rem;
+    }
 }
