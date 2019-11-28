@@ -247,7 +247,7 @@ h4 {
 
 }
 
-.card-img-overlay:hover {
+.card-img-overlay:hover, .card-img-overlay:active{
     color: white;
     background-color: black;
     opacity: 80%;
