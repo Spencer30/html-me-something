@@ -10,6 +10,7 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -23,9 +24,9 @@ html,body
 }
 
 h1 {
-    font-size: 7rem;
-    font-weight: lighter;
+    font-size: 5.5rem;
     color: white;
+    width: 100%;
 }
 
 h4 {
@@ -80,7 +81,7 @@ h4 {
 }
 
 main {
-    background-color: lightgray;
+    background-color: #fff7f3;
 }
 
 .aboutSection {
@@ -123,6 +124,7 @@ h4 {
 
 .skillsTitle {
     padding-top: 2rem;
+    margin-bottom: -3rem;
 }
 
 .star {
@@ -208,7 +210,7 @@ h4 {
 }
 
 #projects {
-    background-color: lightgray;
+    background-color: #fff7f3;
     text-align: center;
 }
 
@@ -280,8 +282,8 @@ h4 {
     }
 
     .mePic {
-        height: 65%;
-        margin-left: 25%;
+        height: 75%;
+        margin-left: 19%;
         /* top: 1rem; */
     }
 
@@ -294,7 +296,7 @@ h4 {
 
     .aboutArticle {
         top: 5rem;
-        height: 900px;
+        height: 970px;
     }
 
     .me {
@@ -307,11 +309,11 @@ h4 {
     }
     
     .skills {
-        height: 1500px;
+        height: 1300px;
     }
     
     #projects {
-        margin-top: 1200px;
+        margin-top: 1100px;
     }
     
     .icon {
